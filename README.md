@@ -5,9 +5,17 @@ We have an H2 inmemory db for testing purposes linked with the UserRepository ->
 This could be replaced with any other implementation you like.
 
 ### There are 3 exposed endpoints
-1. /public/login
-2. /hello/user
-3. /hello/admin
+1. /public/login (authentication encpoint)
+2. /hello/user (USER authority needed)
+3. /hello/admin (ADMIN authority needed)
 
 If correct credentials are used in payload, it will return an authorization header that should be used in order to access the other 2 endpoints.
 The authenticated user (with AT) -> should have the needed authorities in order to access on or the other resource (user or admin)
+
+#### How to run:
+- Start the Local Spring Boot configuration
+- Import one of the insomnia workspace in insomnia. (the files are in json, yaml and har format - all human readable if other http client is used)
+- Start testing.
+
+#### Imporvments
+1. Check the expiration date of the jwt (from Authorization header) in the jwtTokenFilter
