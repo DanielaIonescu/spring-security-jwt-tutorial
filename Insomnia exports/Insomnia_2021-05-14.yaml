@@ -1,11 +1,11 @@
 _type: export
 __export_format: 4
-__export_date: 2021-05-14T10:01:07.556Z
+__export_date: 2021-05-14T10:50:12.094Z
 __export_source: insomnia.desktop.app:v2021.3.0
 resources:
   - _id: req_b8787b6064fe4c91bc1c3c309aaf6aa7
     parentId: fld_c9e3936c026146519656d05a0fb9eefd
-    modified: 1620982071168
+    modified: 1620986835088
     created: 1620768657404
     url: http://localhost:8086/api/public/login
     name: /login
@@ -24,12 +24,6 @@ resources:
         value: application/json
         id: pair_f7a117d681284dfda3c35b8e415d80c4
         disabled: false
-      - name: Authorization
-        value: Bearer
-          eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxLHVzZXIxIiwiaXNzIjoiZXhhbXBsZS5pbyIsImlhdCI6MTYyMDkwMDE2OSwiZXhwIjoxNjIxNTA0OTY5fQ._zK-BGRBiHEcbrKfqAkhdWum1bKN4yhz1sIgpyH2H8fxn5905cBeeeZ5PCTWfMf6jpngKwkvCkOBAM3urlaUog
-        description: ""
-        id: pair_2d6f13254f2c4bef875c38576033f910
-        disabled: true
     authentication: {}
     metaSortKey: -1620768657404
     isPrivate: false
@@ -60,7 +54,7 @@ resources:
     _type: workspace
   - _id: req_9885924f0cd94c86b1bbd66502be131c
     parentId: fld_c9e3936c026146519656d05a0fb9eefd
-    modified: 1620905198706
+    modified: 1620986837329
     created: 1620905194964
     url: http://localhost:8086/api/public/login
     name: /login user2
@@ -78,12 +72,6 @@ resources:
       - name: Content-Type
         value: application/json
         id: pair_f7a117d681284dfda3c35b8e415d80c4
-      - name: Authorization
-        value: Bearer
-          eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxLHVzZXIxIiwiaXNzIjoiZXhhbXBsZS5pbyIsImlhdCI6MTYyMDkwMDE2OSwiZXhwIjoxNjIxNTA0OTY5fQ._zK-BGRBiHEcbrKfqAkhdWum1bKN4yhz1sIgpyH2H8fxn5905cBeeeZ5PCTWfMf6jpngKwkvCkOBAM3urlaUog
-        description: ""
-        id: pair_2d6f13254f2c4bef875c38576033f910
-        disabled: true
     authentication: {}
     metaSortKey: -1620766822938.5
     isPrivate: false
@@ -212,7 +200,7 @@ resources:
     _type: request
   - _id: req_762c4483a603461b8a86751a242e747b
     parentId: fld_c9e3936c026146519656d05a0fb9eefd
-    modified: 1620925334014
+    modified: 1620986850269
     created: 1620761385304
     url: http://localhost:8086/api/hello/admin
     name: /hello/admin
